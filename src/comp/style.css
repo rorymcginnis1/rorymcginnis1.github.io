@@ -12,7 +12,9 @@ header {
   
   
   .profile-picture {
-    width: 250px; 
+    width: 50%;
+    max-width: 250px;
+
     border-radius: 50%; 
     margin-bottom: 20px; 
 
@@ -30,7 +32,7 @@ header {
   
 
   p {
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1.5;
     margin-bottom: 20px;
     margin-left: auto;
@@ -54,7 +56,7 @@ header {
 
 
   html {
-    background: linear-gradient(to bottom, #3498db, #87ceeb);
+    background: linear-gradient(to bottom, #0585db, #bed7e1);
     height: 100vh;
     width: 100%; 
   }
@@ -65,6 +67,8 @@ header {
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
     margin: 20px auto; 
-    max-width: 700px; 
+    width: 90%;
+    max-width: 600px;
+
     text-align: center; 
   }
