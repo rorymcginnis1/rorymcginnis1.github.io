@@ -30,7 +30,7 @@ function Component() {
     <p>
         Link to my <a href='./resume.pdf'>resume</a></p>
     <p>
-        Link to my <a href="github.com/rorymcginnis1">github</a></p>
+        Link to my <a href="https://github.com/rorymcginnis1">github</a></p>
 
     <p>
         you can reach me at: <a href="mailto:rorymcginnis1@gmail.com">rorymcginnis1@gmail.com</a></p>
