@@ -1,0 +1,70 @@
+
+header {
+    text-align: center;
+    margin-bottom: -20px;
+  }
+  
+  header p {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: -10px;
+  }
+  
+  
+  .profile-picture {
+    width: 250px; 
+    border-radius: 50%; 
+    margin-bottom: 20px; 
+
+    object-fit: cover;
+    border: 3px solif #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    transition: transform 0.2s ease-in-out;
+    margin: 2%;
+
+  }
+
+  .profile-picture:hover{
+    transform: scale(1.1);
+  }
+  
+
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    margin-bottom: -5px;
+  }
+  
+
+  a {
+    color: blue; 
+    text-decoration: none; 
+    font-weight: bold;
+    margin-right: 10px; 
+  }
+  
+  a:hover {
+    text-decoration: underline; 
+  }
+  
+
+
+  html {
+    background: linear-gradient(to bottom, #3498db, #87ceeb);
+    height: 100vh;
+    width: 100%; 
+  }
+  
+  .box {
+    background-color: rgb(218, 218, 218);
+
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+    margin: 20px auto; 
+    max-width: 700px; 
+    text-align: center; 
+  }
